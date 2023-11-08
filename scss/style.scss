@@ -1,3 +1,6 @@
+@import "utilities";
+@import "config";
+@import "btnConfig";
 
 * {
   box-sizing: border-box;
@@ -6,7 +9,7 @@
 }
 
 body {
-  background-color: $light-color;
+  background-color: $primary-color;
   font-family: $font-stack;
   line-height: 1;
 }
@@ -20,6 +23,27 @@ a {
 }
 
 .hero {
+  nav{
+    display: flex;
+    color: white;
+    align-items: center;
+    h1 {
+      margin-right: 50x;
+    }
+      ul {
+        list-style: none;
+        margin-left: 20px;
+        padding: 0;
+        display: flex;
+          li {
+            margin-right: 20px;
+          }
+    }
+  }
+  .hero-content {
+    color: white;
+    display: flex;
+  }
   // This is where the bulk of the SCSS styling needs to be done
 
   // Take a look at the other files we've built already. How can they be useful here?

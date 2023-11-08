@@ -52,28 +52,6 @@ a {
   text-decoration: none;
 }
 
-.hero nav {
-  display: flex;
-  color: white;
-  align-items: center;
-}
-.hero nav h1 {
-  margin-right: 50x;
-}
-.hero nav ul {
-  list-style: none;
-  margin-left: 20px;
-  padding: 0;
-  display: flex;
-}
-.hero nav ul li {
-  margin-right: 20px;
-}
-.hero .hero-content {
-  color: white;
-  display: flex;
-}
-
 .m-1 {
   margin: 1rem;
 }
